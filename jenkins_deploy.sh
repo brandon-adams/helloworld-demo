@@ -6,4 +6,4 @@ cf push --no-start
 APP_NAME=`cat manifest.yml | grep -i name | awk '{ print $3 }'`
 #cf restage $APP_NAME
 #f start $APP_NAME
-sudo /opt/IBM/WebSphere/AppServer/bin/wsadmin.sh -lang jython -f /home/opstack/deployWAR.py yKPgpR-mngd-AppNode GnOEpf-srvr $WORKSPACE/build/libs/helloworld.war
+#sudo /opt/IBM/WebSphere/AppServer/bin/wsadmin.sh -lang jython -f /home/opstack/deployWAR.py eMoYx3-mngd-AppNode GnOEpf-srvr $WORKSPACE/build/libs/helloworld.war
