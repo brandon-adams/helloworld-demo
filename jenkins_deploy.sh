@@ -6,4 +6,4 @@ cf login -a http://api.192.168.4.14.xip.io -u admin -p password -o newwave -s de
 APP_NAME=`cat manifest.yml | grep -i name | awk '{ print $3 }'`
 #cf restage $APP_NAME
 #cf start $APP_NAME
-sudo /opt/IBM/WebSphere/AppServer/profiles/eMoYx3-dmgr/bin/wsadmin.sh -lang jython -f /home/opstack/deployWAR.py eMoYx3-mngd-AppNode TW81Pz-srvr $WORKSPACE/build/libs/helloworld.war
+sudo /opt/IBM/WebSphere/AppServer/profiles/eMoYx3-dmgr/bin/wsadmin.sh -lang jython -f /home/opstack/deployWAR.py eMoYx3-mngd-AppNode dkeaSb-srvr $WORKSPACE/build/libs/helloworld.war
